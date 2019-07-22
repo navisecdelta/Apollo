@@ -189,5 +189,3 @@ if options[:email] and options[:subject] and options[:template] and options[:ide
 else
     puts "Usage: --help"
 end 
-
-########################################################################################################
