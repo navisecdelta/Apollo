@@ -1,0 +1,32 @@
+@identities = {
+    "bob" => {
+        :address => "smtp.mailgun.org",
+        :port => 587, 
+        :user_name => "",
+        :password => "",
+        :authentication => :plain,
+        :enable_starttls_auto => true,
+        :from => "",
+        :signature => "Regards,<br><br> <h3>Bob</h3>"
+    },
+    "john" => {
+        :address => "smtp.gmail.com",
+        :port => 587, 
+        :user_name => "@gmail.com",
+        :password => "",
+        :authentication => :plain,
+        :enable_starttls_auto => true,
+        :from => "John <@gmail.com>",
+        :signature => "Regards,<br><br> <h3>John Carter</h3>"
+    },
+    "harry" => {
+        :address => "smtp.office365.com",
+        :port => 587, 
+        :user_name => "",
+        :password => "",
+        :authentication => :login,
+        :enable_starttls_auto => true,
+        :from => "Harry <@outlook.com>",
+        :signature => "Thanks!<br>Harry"
+    }
+}
